@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Калькулятор плитки</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/pdfmake.js"></script>
+    <script src="js/vfs_fonts.js"></script>
+  </head>
+
+  <body>
+
+    <section class="calculator">
+
+      <div class="calculator__wrapper">
+
+        <figure class="calculator__image">
+
+          <div class="calculator__status"></div>
+
+          <svg class="calculator__svg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" x="0px" y="0px"  viewBox="0 0 480 480">
+
+          </svg>
+
+        </figure>
+
+        <div class="calculator__properties">
+
+          <span class="calculator__pattern"></span>
+
+          <div class="calculator__divider"></div>
+
+          <ul class="calculator__patterns">
+            <li class="calculator__patterns-item calculator__patterns-name--active"><img value="1" class="calculator__patterns-image calculator__patterns-image--active" src='images/icon_royal_bud.png'></li>
+            <li class="calculator__patterns-item"><img value="2"  class="calculator__patterns-image" src='images/icon_paradise_bird.png'></li>
+            <li class="calculator__patterns-item"><img value="3"  class="calculator__patterns-image" src='images/icon_persian_lace.png'></li>
+            <li class="calculator__patterns-item"><img value="4"  class="calculator__patterns-image" src='images/icon_orient_necklace.png'></li>
+            <li class="calculator__patterns-item"><img value="5"  class="calculator__patterns-image" src='images/icon_1001_star.png'></li>
+            <li class="calculator__patterns-item"><img value="6"  class="calculator__patterns-image" src='images/icon_ethnicity.png'></li>
+          </ul>
+
+          <span class="calculator__part">
+            Контур <div class="calculator__checker"></div>
+          </span>
+
+          <ul class="calculator__parts">
+          </ul>
+
+          <ul class="calculator__palette">
+          </ul>
+
+          <ul class="calculator__buttons">
+            <li class="calculator__buttons-item calculator__buttons-item-view">
+              <button class="calculator__buttons-view button button--active" type="button" name="view">Общий вид</button>
+            </li>
+            <li class="calculator__buttons-item calculator__buttons-item-pdf">
+              <button class="calculator__buttons-pdf button button--red" type="button" name="pdf">Создать Pdf</button>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <script type="text/javascript" src="main.js"></script>
+    <!-- <script type="module" src="main_copy.js"></script> -->
+    <!-- <script type="module" src="objects.js"></script> -->
+  </body>
+
+</html>
